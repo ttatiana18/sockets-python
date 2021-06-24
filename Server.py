@@ -94,7 +94,6 @@ class Client(Thread):
 
 def main():
     s = socket()
-    
     # Escuchar peticiones en el puerto 6030.
     s.bind(("localhost", 6030))
     s.listen(0)
